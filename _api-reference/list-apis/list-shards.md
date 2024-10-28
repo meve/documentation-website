@@ -1,19 +1,15 @@
 ---
 layout: default
-title: LIST shards
-parent: LIST API
-
-nav_order: 60
-has_children: false
-redirect_from:
-- /opensearch/rest-api/list/list-shards/
+title: List Shards
+parent: List API
+nav_order: 20
 ---
 
-# LIST shards
+# List Shards
 **Introduced 2.18**
 {: .label .label-purple }
 
-The LIST shards operation outputs the state of all primary and replica shards and how they are distributed, in a paginated fashion.
+The List Shards operation outputs the state of all primary and replica shards and how they are distributed, in a paginated fashion.
 Information for shards to be returned in the current page, will be guided by the current state of cluster not by the state when first page would have been fetched (which might be different).
 
 

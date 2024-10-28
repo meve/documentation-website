@@ -1,18 +1,16 @@
 ---
 layout: default
-title: LIST indices operation
-parent: LIST API
+title: List Indices operation
+parent: List API
 nav_order: 25
 has_children: false
-redirect_from:
-- /opensearch/rest-api/list/list-indices/
 ---
 
-# LIST indices
+# List Indices
 **Introduced 2.18**
 {: .label .label-purple }
 
-The LIST indices operation provides information related to indexes, that is, how much disk space they are using, how many shards they have, their health status, and so on, in a paginated fashion. 
+The List Indices operation provides information related to indexes, that is, how much disk space they are using, how many shards they have, their health status, and so on, in a paginated fashion. 
 Information for indexes to be returned in the current page, will be guided by the current state of cluster not by the state when first page would have been fetched (which might be different).
 
 
