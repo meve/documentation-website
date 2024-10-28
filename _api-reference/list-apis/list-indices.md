@@ -40,14 +40,14 @@ Parameter | Type | Description
 
 ## Example requests
 
-To limit the information to a specific index, add the index name after your query.
+To limit the information to a specific index, add the index name after your query, as shown in the following example:
 
 ```json
 GET _list/indices/<index>?v
 ```
 {% include copy-curl.html %}
 
-If you want to get information for more than one index, separate the indexes with commas:
+If you want to get information for more than one index, separate the indexes with commas, as shown in the following example:
 
 ```json
 GET _list/indices/index1,index2,index3
